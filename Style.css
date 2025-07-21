@@ -1,0 +1,86 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #80deea);
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+}
+
+/* Container Styling */
+.container {
+  background: rgb(32, 31, 32);
+  padding: 40px 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Heading and Text */
+h1 {
+  color: #25ed71;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #fcfafa;
+  font-size: 22px;
+}
+
+/* Input Field */
+input[type="date"] {
+  padding: 12px;
+  font-size: 20px;
+  border: 2px solid #0c8ece;
+  border-radius: 26px;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="date"]:focus {
+  border-color: #0056b3;
+}
+
+/* Button Container */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Buttons */
+button {
+  flex: 1;
+  padding: 10px 10px;
+  font-size: 16px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Result Box */
+.result {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9f6f1;
+}
